@@ -1,6 +1,6 @@
 # Pixel Art
 
-A small browser pixel-art editor with a "replicate the code" game mode, written as a single PHP page. Inspired by [pixiliart.com](https://pixiliart.com).
+A small browser pixel-art editor with a "replicate the code" game mode, written as a single PHP page. Inspired by [pixilart.com](https://pixilart.com).
 
 Drawing is rendered locally with JavaScript on `<canvas>` for instant response, and the state is saved to the PHP session in the background. A password-protected **boss** can store a picture's pixel code in MySQL and get a six-digit id. Anyone can then enter that id to load the code, and has to recreate the picture on a blank canvas using only the code as a guide, while a progress gauge tracks how close they are.
 
